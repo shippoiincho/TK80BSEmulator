@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//Debug/debug.c=GBK
+encoding//Debug/debug.h=GBK
+encoding//Ld/Link.ld=GBK
+encoding//Peripheral/src/ch32v20x_dbgmcu.c=GBK
+encoding//User/USB_Host/ch32v20x_usbfs_host.h=GBK
+encoding//User/USB_Host/usb_host_config.h=GBK
+encoding//User/USB_Host/usb_host_hid.c=GBK
+encoding//User/USB_Host/usb_host_hid.h=GBK
+encoding//User/ch32v20x_conf.h=GBK
+encoding//User/ch32v20x_usb.h=GBK
+encoding//User/i8080.c=GBK
+encoding//User/i8080.h=GBK
+encoding//User/main.c=GBK
+encoding//User/system_ch32v20x.c=GBK
+encoding//User/tk80rom\ _dummy.h=GBK
+encoding//User/tk80rom.h=GBK
