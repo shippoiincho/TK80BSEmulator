@@ -36,7 +36,7 @@ uint8_t lastkeycode=0;
 
 // enable option rom and patch for COMPATIBLE ROM
 // CAUTION: COMPATIBLE BASIC DOES NOT WORK WELL ON THIS EMULATOR
-#define USE_COMPATIBLE_ROM
+//#define USE_COMPATIBLE_ROM
 
 volatile uint16_t ntsc_line;
 volatile uint8_t ntsc_blank = 0;
