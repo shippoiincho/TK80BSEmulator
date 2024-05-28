@@ -476,7 +476,8 @@ void TIM1_CC_IRQHandler(void) {
     if ((ntsc_line >= NTSC_SCAN_START)
             && (ntsc_line < (NTSC_SCAN_START + NTSC_Y_PIXELS))) { // video out
         ntsc_blank = 0;
-        DMA_Tx_Init(DMA1_Channel3, (u32) (&SPI1->DATAR + 1),
+
+        DMA_Tx_Init(DMA1_Channel3, (u32) (&SPI1->DATAR),
                 (u32) scandata[ntsc_line % 2], NTSC_X_CHARS + 1);
         DMA_Cmd(DMA1_Channel3, ENABLE);
     } else {
